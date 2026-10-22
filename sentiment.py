@@ -16,7 +16,7 @@ from pydantic import BaseModel
 
 load_dotenv()
 
-MODEL = "claude-3-5-sonnet-20241022"
+MODEL = "claude-haiku-5-5"
 
 SYSTEM_PROMPT = (
     "You are a sentiment analyzer. Analyze the user's text and return:\n"
